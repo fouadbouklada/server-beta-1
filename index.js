@@ -15,7 +15,7 @@ app.listen(port, () => {
 
 function keepAlive() {
   setInterval(() => {
-    axios.get('https://serveralpha-1.onrender.com/')
+    axios.get('https://server-alpha-1.onrender.com/')
       .then(response => {
         console.log('Ping to Server A successful');
       })
